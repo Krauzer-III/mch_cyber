@@ -1,4 +1,4 @@
-# Quasar App (mos-hack)
+# Quasar App
 
 A Quasar Framework app
 
