@@ -1,0 +1,12 @@
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\MosHack_2021.exe
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\MosHack_2021.dll
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\MosHack_2021.deps.json
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\MosHack_2021.runtimeconfig.json
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\MosHack_2021.pdb
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\C5.dll
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\MathNet.Numerics.IO.dll
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\MathNet.Numerics.dll
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\MyMediaLite.dll
+D:\C# Projects\MosHack_2021\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll

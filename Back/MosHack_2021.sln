@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosHack_2021", "MosHack_2021.csproj", "{68638017-1AD9-453B-8C63-F52FC51FA46B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosHackTest", "..\MosHackTest\MosHackTest.csproj", "{D3B40801-C54C-48A7-BEF7-053AA627035E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68638017-1AD9-453B-8C63-F52FC51FA46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68638017-1AD9-453B-8C63-F52FC51FA46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68638017-1AD9-453B-8C63-F52FC51FA46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68638017-1AD9-453B-8C63-F52FC51FA46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B40801-C54C-48A7-BEF7-053AA627035E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B40801-C54C-48A7-BEF7-053AA627035E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B40801-C54C-48A7-BEF7-053AA627035E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B40801-C54C-48A7-BEF7-053AA627035E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04E3B8ED-AB29-4861-A37B-7952EEBDB4F7}
+	EndGlobalSection
+EndGlobal

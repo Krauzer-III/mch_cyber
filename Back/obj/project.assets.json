@@ -1,0 +1,251 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "C5/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/C5.dll": {}
+        },
+        "runtime": {
+          "lib/net40/C5.dll": {}
+        }
+      },
+      "MathNet.Numerics/2.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/MathNet.Numerics.IO.dll": {},
+          "lib/net40/MathNet.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MathNet.Numerics.IO.dll": {},
+          "lib/net40/MathNet.Numerics.dll": {}
+        }
+      },
+      "MyMediaLite/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "C5": "2.3.0",
+          "MathNet.Numerics": "2.6.1"
+        },
+        "compile": {
+          "lib/net40/MyMediaLite.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MyMediaLite.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C5/2.3.0": {
+      "sha512": "3trMcHFzmpPeRc0zzlU9LQVR9kFP4P/JpaNmKXRkTApzvJ3KiYRHHWuc7Ja2Eqp+AOZGmfQkjn/FTyxShB4I2A==",
+      "type": "package",
+      "path": "c5/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "c5.2.3.0.nupkg.sha512",
+        "c5.nuspec",
+        "lib/net35/C5.dll",
+        "lib/net40/C5.dll",
+        "lib/netcore45/C5.dll",
+        "lib/portable-net4+sl5+wp8+win8/C5.dll",
+        "lib/sl50/C5.dll",
+        "lib/wp8/C5.dll",
+        "lib/wpa81/C5.dll"
+      ]
+    },
+    "MathNet.Numerics/2.6.1": {
+      "sha512": "zuBD6A+ptOyKcFuZM7qx58T9tKQG6I2HxQEIbevyQ3iXfuBmviPbRIPWBjUi0oM+e9CD4bA/Y+/l512Qz58P5w==",
+      "type": "package",
+      "path": "mathnet.numerics/2.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MathNet.Numerics.IO.dll",
+        "lib/net40/MathNet.Numerics.IO.pdb",
+        "lib/net40/MathNet.Numerics.IO.xml",
+        "lib/net40/MathNet.Numerics.dll",
+        "lib/net40/MathNet.Numerics.pdb",
+        "lib/net40/MathNet.Numerics.xml",
+        "lib/portable-net40+windows8+wp8+sl5/MathNet.Numerics.dll",
+        "lib/portable-net40+windows8+wp8+sl5/MathNet.Numerics.pdb",
+        "lib/portable-net40+windows8+wp8+sl5/MathNet.Numerics.xml",
+        "license.txt",
+        "mathnet.numerics.2.6.1.nupkg.sha512",
+        "mathnet.numerics.nuspec",
+        "readme.txt"
+      ]
+    },
+    "MyMediaLite/3.11.0": {
+      "sha512": "WUQ/9hdio5w9q0MbZVt3+AK5zM45jX4ewwelMGyRSIXhsobV6mENCIHRVqnowIqsBQ6e+w0k0kywyJwHJz0qPA==",
+      "type": "package",
+      "path": "mymedialite/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gpl.txt",
+        "lib/net40/MyMediaLite.dll",
+        "lib/net40/MyMediaLite.xml",
+        "license.txt",
+        "mymedialite.3.11.0.nupkg.sha512",
+        "mymedialite.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MyMediaLite >= 3.11.0",
+      "Newtonsoft.Json >= 13.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Krauzer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\C# Projects\\MosHack_2021\\MosHack_2021.csproj",
+      "projectName": "MosHack_2021",
+      "projectPath": "D:\\C# Projects\\MosHack_2021\\MosHack_2021.csproj",
+      "packagesPath": "C:\\Users\\Krauzer\\.nuget\\packages\\",
+      "outputPath": "D:\\C# Projects\\MosHack_2021\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Krauzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "MyMediaLite": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"C5 2.3.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "C5",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MathNet.Numerics 2.6.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "MathNet.Numerics",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MyMediaLite 3.11.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "MyMediaLite",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
